@@ -179,3 +179,75 @@ p {
 
 
 }
+
+
+.section3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 62px;
+    height: 700px;
+    text-align: justify;
+
+}
+
+.Categoria1 {
+
+    background-image: url("imagenes/fondolasdonas.png");
+    width: 48%;
+}
+
+
+
+.categoria2-3 {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.categoria2-3>div {
+    flex-grow: 1;
+
+}
+
+.categoria2 {
+    background-image: url("imagenes/banner2.png");
+}
+
+.categoria3 {
+    background-image: url("imagenes/banner3.png");
+
+}
+
+.categoria-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    
+    color: white;
+    padding: 10px;
+    position: relative;
+    
+
+}
+
+.section4 {
+    margin: 0;
+    padding: 10px;
+    margin: 62px;
+
+}
+
+.Categoria4 {
+    background-image: url("imagenes/banner4home.png");
+
+    width: 100%;
+    height: 150px;
+
+}
+
+
+
