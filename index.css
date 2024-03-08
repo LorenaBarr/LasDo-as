@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "IU Sans Serif", sans-serif;
+}
+
+.barraheader {
+    background-color: #df3876;
+    width: 100%;
+    height: 45px;
+    color: white;
+    font-size: 1rem;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+}
+
+.lasdonaslogo {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.usuario,
+.compra {
+    background-color: #df3876;
+    size: 16px;
+    padding: 8px;
+    border-radius: 30px;
+    border: none;
+}
+
+.icono_flor_3petalos {
+    width: 1rem;
+    height: 1rem;
+    background-color: transparent;
+}
+
+
+.menu {
+    padding: 10px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    flex-direction: row;
+    padding: 0;
+}
+
+.menu li {
+    margin-right: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgba(124, 124, 124, 0.8);
+    font-size: 16px;
+    flex-direction: row;
+    padding: 0;
+    font-weight: bold;
+}
+
+.section1 {
+    background-image: url("imagenes/bannerfondo2.png");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 40rem;
+}
+
+
+.sectionText1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    height: 100%;
+
+}
+
+.sectionText1 h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.sectionText1 a {
+    font-size: 16px;
+}
+
+.btnsection1 {
+    color: white;
+    font-size: 16px;
+    background-color: #df3876;
+    margin: 16px 0px 0px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.section2text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.section2text p {
+    color: #df3876;
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.section2text h1 {
+
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.productos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.productoUno {
+    width: calc(25% - 20px);
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.productoUno .contenido {
+    padding: 20px;
+}
+
+.productosimg {
+    width: 100%;
+}
+
+.productoUno a,
+p {
+    margin-bottom: 10px;
+}
+
+.btnproducto {
+    background-color: white;
+    width: 100%;
+    font-weight: bold;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+
+
+}
